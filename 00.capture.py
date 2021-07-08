@@ -1,6 +1,8 @@
 __Author__ = "xq"
 
 import cv2
+import pandas as pd
+
 
 cap = cv2.VideoCapture(0)
 print(cap.get(3))
